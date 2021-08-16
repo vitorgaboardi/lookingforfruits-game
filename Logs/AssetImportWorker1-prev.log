@@ -1,0 +1,1368 @@
+Using pre-set license
+Desktop is 1366 x 768 @ 60 Hz
+
+ COMMAND LINE ARGUMENTS:
+Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/home/vitor/Unity Projects/LookingForFruits
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+46753
+Successfully changed project path to: /home/vitor/Unity Projects/LookingForFruits
+/home/vitor/Unity Projects/LookingForFruits
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 35.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.14f1 (d0d1bb862f9d)
+[Subsystems] Discovering subsystems at path /home/vitor/Unity/Hub/Editor/2020.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /home/vitor/Unity Projects/LookingForFruits/Assets
+GLX Extensions: GLX_ARB_create_context GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_import_context GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_INTEL_swap_event GLX_MESA_copy_sub_buffer GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_swap_method GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync 
+Renderer: Mesa DRI Intel(R) HD Graphics 4400 (HSW GT2)
+Vendor:   Intel Open Source Technology Center
+Version:  4.5 (Core Profile) Mesa 20.0.8
+GLES:     0
+ GL_3DFX_texture_compression_FXT1 GL_AMD_conservative_depth GL_AMD_draw_buffers_blend GL_AMD_multi_draw_indirect GL_AMD_query_buffer_object GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_trinary_minmax GL_AMD_texture_texture4 GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_APPLE_object_purgeable GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect
+ GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_shader GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects G
+L_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge G
+L_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_texture_float GL_EXT_EGL_image_storage GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_demote_to_helper_invocation GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_mul
+tisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_shader_framebuffer_fetch_non_coherent GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_IBM_multimode_draw_arrays GL_INTEL_performance_query GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL
+_MESA_shader_integer_functions GL_MESA_texture_signed_rgba GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_texture_barrier GL_OES_EGL_image GL_S3_s3tc
+OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle 276422992
+Initialize mono
+Mono path[0] = '/home/vitor/Unity/Hub/Editor/2020.3.14f1/Editor/Data/Managed'
+Mono path[1] = '/home/vitor/Unity/Hub/Editor/2020.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/home/vitor/Unity/Hub/Editor/2020.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56534
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /home/vitor/Unity/Hub/Editor/2020.3.14f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.025832 seconds.
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 35.08 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.597 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1597ms)
+		BeginReloadAssembly (37ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (539ms)
+			LoadAssemblies (54ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (183ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (231ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (35ms)
+				BeforeProcessingInitializeOnLoad (7ms)
+				ProcessInitializeOnLoadAttributes (117ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.094997 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.149 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3195ms)
+		BeginReloadAssembly (240ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (2884ms)
+			LoadAssemblies (1893ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (326ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (422ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (322ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1473 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.5 MB.
+System memory in use after: 65.5 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1914.
+Total: 3.495494 ms (FindLiveObjects: 0.175939 ms CreateObjectMapping: 0.075190 ms MarkObjects: 2.980256 ms  DeleteObjects: 0.259429 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Soul Dissolve soft alpha.mat
+  artifactKey: Guid(b0e458abeb2585f45bcf8328c5989793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Soul Dissolve soft alpha.mat using Guid(b0e458abeb2585f45bcf8328c5989793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93adb92f0d6b72e0ea951fa01301ec3f') in 0.222694 seconds 
+  Import took 0.225961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.354270 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Textures/flame.psd
+  artifactKey: Guid(0fdf179dbecda7f439d73d58be1ac191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Textures/flame.psd using Guid(0fdf179dbecda7f439d73d58be1ac191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f7caf12f41bc61e67b0618a28aca67f') in 0.065876 seconds 
+  Import took 0.070071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.154220 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Textures/particle_texture_sheet.psd
+  artifactKey: Guid(3c747f2abcfc9214a94cb036c2d914a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Textures/particle_texture_sheet.psd using Guid(3c747f2abcfc9214a94cb036c2d914a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91eba0cb6b0f1a8c6db29f84bf09cbff') in 0.024357 seconds 
+  Import took 0.027795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028824 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Explosion alpha.mat
+  artifactKey: Guid(76605e76d556e894483d9609c7b36a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Explosion alpha.mat using Guid(76605e76d556e894483d9609c7b36a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d132431f20b869363b2f1d0a981cb9d') in 0.076224 seconds 
+  Import took 0.079721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015443 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders/softrim
+  artifactKey: Guid(3754de2f0eb64fd42b26795687933ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders/softrim using Guid(3754de2f0eb64fd42b26795687933ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55f013225c691cb4897941f1331a5222') in 0.000649 seconds 
+  Import took 0.003623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014186 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders/legacy/Dissolve_Alpha_Unlit_softrim.shader
+  artifactKey: Guid(19defb660818483478ebfe0131e8acf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders/legacy/Dissolve_Alpha_Unlit_softrim.shader using Guid(19defb660818483478ebfe0131e8acf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aa69c1cd4c10f20501d3b8967dec5ab') in 0.000848 seconds 
+  Import took 0.003851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044030 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Explosion single sharp.prefab
+  artifactKey: Guid(7e434543af9a9694eb543bfed5b37dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Explosion single sharp.prefab using Guid(7e434543af9a9694eb543bfed5b37dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4790422acee85507b5d8dc115e306ce') in 0.240206 seconds 
+  Import took 0.244337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.178265 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders/legacy/DissolveSoft_Alpha_Unlit_Opacity_softrim.shader
+  artifactKey: Guid(59cda6d7fc31eca4485c86ad2c64f353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders/legacy/DissolveSoft_Alpha_Unlit_Opacity_softrim.shader using Guid(59cda6d7fc31eca4485c86ad2c64f353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2f28042b783405f1d206771d5b16e7b') in 0.000878 seconds 
+  Import took 0.003825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.112373 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Cloud Flame loop dissolve sharp alpha.mat
+  artifactKey: Guid(c49fcf35515bc3f4cbe407d40a47e8c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Cloud Flame loop dissolve sharp alpha.mat using Guid(c49fcf35515bc3f4cbe407d40a47e8c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c4aeaadc7414610e9c4235cc6eca9e') in 0.096269 seconds 
+  Import took 0.099676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050908 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Cloud Flame dissolve soft alpha.mat
+  artifactKey: Guid(457a01b6421de644fbaddf5d2c8ea766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Cloud Flame dissolve soft alpha.mat using Guid(457a01b6421de644fbaddf5d2c8ea766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93fd8adecc9437f0ef8467fc1e96ceaf') in 0.007191 seconds 
+  Import took 0.010557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.159885 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Flamethrower fallback.prefab
+  artifactKey: Guid(6e6d369a64a9b12448b244e27dd2703f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Flamethrower fallback.prefab using Guid(6e6d369a64a9b12448b244e27dd2703f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e072749c64bd65dae6999aa075ca1e8') in 0.040607 seconds 
+  Import took 0.044461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016575 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Scripts/PDS_GameController.cs
+  artifactKey: Guid(c1da8494c5c8b964aa2058b2057aebe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Scripts/PDS_GameController.cs using Guid(c1da8494c5c8b964aa2058b2057aebe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46815de52a5457c1468ff8ee247cdf56') in 0.000681 seconds 
+  Import took 0.003781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018669 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Cloud alpha.mat
+  artifactKey: Guid(2196b6592283aba42837afc47c92244c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Cloud alpha.mat using Guid(2196b6592283aba42837afc47c92244c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c7dbf84fd3af200fe0735dc632e94ae') in 0.034372 seconds 
+  Import took 0.037715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050443 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders/legacy/DissolveSoft_Alpha_Additive_Opacity.shader
+  artifactKey: Guid(4d2d20bf94468824095972403ab671f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders/legacy/DissolveSoft_Alpha_Additive_Opacity.shader using Guid(4d2d20bf94468824095972403ab671f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9363fc51ff1c1589df28328867efe1b') in 0.000912 seconds 
+  Import took 0.003987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.049444 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Textures
+  artifactKey: Guid(61cea9b62e9b7cb4c84a13613aff98e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Textures using Guid(61cea9b62e9b7cb4c84a13613aff98e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aca7a6fad0a455e96acca36d6d0ce2b') in 0.000683 seconds 
+  Import took 0.003690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044695 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Flamethrower mobile.prefab
+  artifactKey: Guid(75d81dd229c1a8449b4fdf8dbba00c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Flamethrower mobile.prefab using Guid(75d81dd229c1a8449b4fdf8dbba00c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc5ba38a64e2d367fa8cf69abd0c9776') in 0.036331 seconds 
+  Import took 0.039812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044846 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Explosion loop fallback.prefab
+  artifactKey: Guid(39051c4c6f9bd604382d68b7a910a9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Explosion loop fallback.prefab using Guid(39051c4c6f9bd604382d68b7a910a9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a28c35b6e04cc664101b6ae99aab6f24') in 0.031770 seconds 
+  Import took 0.036691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010555 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders/legacy/DissolveSoft_Alpha_Unlit_softrim.shader
+  artifactKey: Guid(8bd7d6d8134cb99428f9b57b73453df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders/legacy/DissolveSoft_Alpha_Unlit_softrim.shader using Guid(8bd7d6d8134cb99428f9b57b73453df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27a3f773b06341c21bb636157b793da5') in 0.000843 seconds 
+  Import took 0.003883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.133716 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Water Splash sharp.prefab
+  artifactKey: Guid(f1858abc67b93404ebbd608e7be189a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Water Splash sharp.prefab using Guid(f1858abc67b93404ebbd608e7be189a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ad07cb937ac16c2c4ee8ce44abf522b') in 0.060752 seconds 
+  Import took 0.066301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.091443 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Explosion loop_2 soft.prefab
+  artifactKey: Guid(b0fa6e8756f3a9e43b8ca1e482604f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Explosion loop_2 soft.prefab using Guid(b0fa6e8756f3a9e43b8ca1e482604f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b78e65f43ac7762d6a55882d257794b') in 0.095395 seconds 
+  Import took 0.101625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050259 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Explosion loop soft.prefab
+  artifactKey: Guid(e5e72c487c3d9574195db877dff604fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Explosion loop soft.prefab using Guid(e5e72c487c3d9574195db877dff604fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60280984a82d3b41fd45af06483a7bc6') in 0.032084 seconds 
+  Import took 0.050441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.072572 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Water alpha.mat
+  artifactKey: Guid(28fe5615f26a127448f13804d6184db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Water alpha.mat using Guid(28fe5615f26a127448f13804d6184db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13b0a8ecec14801f2c6e45790951e16b') in 0.009290 seconds 
+  Import took 0.013304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034630 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Smoke basic mobile additive.prefab
+  artifactKey: Guid(a78b0d1b58c10dc4e9955f307ef8447b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Smoke basic mobile additive.prefab using Guid(a78b0d1b58c10dc4e9955f307ef8447b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '689162a3ecdaab1105ab2493295914c6') in 0.017935 seconds 
+  Import took 0.022202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026520 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Cameras/Camera.prefab
+  artifactKey: Guid(ff3468df767ca784b87dc810a8963a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Cameras/Camera.prefab using Guid(ff3468df767ca784b87dc810a8963a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a11f57134305d81efb4a9f82df6dae7') in 0.020559 seconds 
+  Import took 0.024017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001538 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Scenes/Demo_cloth_fireSettings.lighting
+  artifactKey: Guid(b110e540d2b2a7ef58182feb184b0ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Scenes/Demo_cloth_fireSettings.lighting using Guid(b110e540d2b2a7ef58182feb184b0ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '93328299438d80fb478a260c6aeaa72f') in 0.001209 seconds 
+  Import took 0.003709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001092 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Lens Flares
+  artifactKey: Guid(577ce3afb6c9589479a35caa64227c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Lens Flares using Guid(577ce3afb6c9589479a35caa64227c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e649dd825ddd92ae6023d0fe34b527da') in 0.000591 seconds 
+  Import took 0.002988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.209670 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Textures/explosion_dissolve.psd
+  artifactKey: Guid(1c8e7b94b8dc34c41a5b9118081ec43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Textures/explosion_dissolve.psd using Guid(1c8e7b94b8dc34c41a5b9118081ec43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a302fcad751283552435437b1e39579') in 0.009386 seconds 
+  Import took 0.014892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.144452 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Smoke basic fallback.prefab
+  artifactKey: Guid(eab30caa452880045806afdce010d481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Smoke basic fallback.prefab using Guid(eab30caa452880045806afdce010d481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1a633fcc66b0e7adfb280a9fb781890') in 0.022600 seconds 
+  Import took 0.028333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020604 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Glow add softrim stretch.mat
+  artifactKey: Guid(71545a2bf26f5214dbb2d079a8d24c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Glow add softrim stretch.mat using Guid(71545a2bf26f5214dbb2d079a8d24c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2746e6d484c89044cfd2ae23726a7e1') in 0.036634 seconds 
+  Import took 0.040501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056113 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders/unity5/TestMaterial.mat
+  artifactKey: Guid(792af75cddee71a4f9d6527c814b5874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders/unity5/TestMaterial.mat using Guid(792af75cddee71a4f9d6527c814b5874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ae1765a40d4ea4a4fa934b0fd3cf6d8') in 0.159303 seconds 
+  Import took 0.163515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.135568 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders/legacy/Dissolve_Alpha_Unlit_Opacity.shader
+  artifactKey: Guid(2cf84434e3fa8f0469079fe3397f2065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders/legacy/Dissolve_Alpha_Unlit_Opacity.shader using Guid(2cf84434e3fa8f0469079fe3397f2065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fdaaf2a9bb828be36089d2f2a124218') in 0.000917 seconds 
+  Import took 0.004194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001241 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders/unity5/Particle_Softrim_Dissolve_alpha.shader
+  artifactKey: Guid(459a02345d411d74f969aaa2f6586e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders/unity5/Particle_Softrim_Dissolve_alpha.shader using Guid(459a02345d411d74f969aaa2f6586e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9967021afed9f8f48e21ae474197ac80') in 0.000909 seconds 
+  Import took 0.003541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.269297 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Explosion dissolve sharp alpha.mat
+  artifactKey: Guid(6dfd4108575b190468b06feec26188ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Explosion dissolve sharp alpha.mat using Guid(6dfd4108575b190468b06feec26188ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df65390d8adbfa4c1f571672307df2b2') in 0.035858 seconds 
+  Import took 0.039195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.522279 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Textures/cloud_flame.psd
+  artifactKey: Guid(5f5ba243512219847b0078f0c27e7239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Textures/cloud_flame.psd using Guid(5f5ba243512219847b0078f0c27e7239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a08a3cc2f523a68afd0da0d67937b04a') in 0.008649 seconds 
+  Import took 0.013047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.059026 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Flame dissolve sharp alpha.mat
+  artifactKey: Guid(1116d15f2ccd67948af30e397017d8fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Flame dissolve sharp alpha.mat using Guid(1116d15f2ccd67948af30e397017d8fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82f11971cc8cbf8c81f5e9cce4b80613') in 0.007217 seconds 
+  Import took 0.010542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004693 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Animations/spin controller.controller
+  artifactKey: Guid(a276156e2e97f034fbd8c6314b49172e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Animations/spin controller.controller using Guid(a276156e2e97f034fbd8c6314b49172e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e00dab74ce10ef58e8ff7915ba3afb0a') in 0.018528 seconds 
+  Import took 0.021685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012605 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders/legacy/Dissolve_Alpha_Unlit.shader
+  artifactKey: Guid(0e5a0534075ec5a48bd03929fabf4394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders/legacy/Dissolve_Alpha_Unlit.shader using Guid(0e5a0534075ec5a48bd03929fabf4394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5f0740d5333744d1e7a5fd052184139') in 0.001533 seconds 
+  Import took 0.005678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051344 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders/unity5/Editor/CustomMaterialEditor.cs
+  artifactKey: Guid(4cbecb8c86dba8947ad87bf85f43a63b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders/unity5/Editor/CustomMaterialEditor.cs using Guid(4cbecb8c86dba8947ad87bf85f43a63b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa2902ae3de6b41fedf7d45816585166') in 0.002023 seconds 
+  Import took 0.009108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045588 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Explosion loop sharp.prefab
+  artifactKey: Guid(c9afa2a2ad89ebc41897c1247ceddadd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Explosion loop sharp.prefab using Guid(c9afa2a2ad89ebc41897c1247ceddadd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bc86475390cb37867eefeda0cbd1b99') in 0.032785 seconds 
+  Import took 0.038800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.090761 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Textures/cloud_alpha.png
+  artifactKey: Guid(cdc995167d46a4c4383e12725cf124a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Textures/cloud_alpha.png using Guid(cdc995167d46a4c4383e12725cf124a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5570b67b700f6ce0b0286652449027fe') in 0.007785 seconds 
+  Import took 0.013869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031045 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Smoke basic soft.prefab
+  artifactKey: Guid(3407201495b56b440be4e16677cf2316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Smoke basic soft.prefab using Guid(3407201495b56b440be4e16677cf2316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3adc9ca4493d1208a106c92dd89815b9') in 0.065809 seconds 
+  Import took 0.069997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027742 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Soul mobile.prefab
+  artifactKey: Guid(7b8f8a4d0ee5ffb4aaa6b54181380640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Soul mobile.prefab using Guid(7b8f8a4d0ee5ffb4aaa6b54181380640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de8413bf5abab942a495c821a79b2c84') in 0.023066 seconds 
+  Import took 0.027589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016071 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Animations
+  artifactKey: Guid(2b8b29afda297e6488b87e17329980fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Animations using Guid(2b8b29afda297e6488b87e17329980fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bfc6a635c76e55e1c1ba7df2f6afc3d') in 0.000669 seconds 
+  Import took 0.003688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010794 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Cloud Flame dissolve sharp alpha.mat
+  artifactKey: Guid(49f733720a311e047bd45b1cc932517c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Cloud Flame dissolve sharp alpha.mat using Guid(49f733720a311e047bd45b1cc932517c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f096e0a5bc894f2f52067f5965662507') in 0.010290 seconds 
+  Import took 0.013864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009737 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Cloud dissolve sharp alpha opacity.mat
+  artifactKey: Guid(b6dc35e8bf669d8449f3a47a0b6f8836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Cloud dissolve sharp alpha opacity.mat using Guid(b6dc35e8bf669d8449f3a47a0b6f8836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20daa75449e4cbeb98717a8fd35b8990') in 0.067299 seconds 
+  Import took 0.070312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053021 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders/softrim/Particle_softrim_alpha.shader
+  artifactKey: Guid(da8da304a2db37d4e9ab8925f3613764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders/softrim/Particle_softrim_alpha.shader using Guid(da8da304a2db37d4e9ab8925f3613764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e691b8a1ee0ae2572ab05282fe94651') in 0.000818 seconds 
+  Import took 0.018869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033936 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Cloud Flame loop dissolve soft alpha.mat
+  artifactKey: Guid(13cc2255134f878449255233aa7d0971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Cloud Flame loop dissolve soft alpha.mat using Guid(13cc2255134f878449255233aa7d0971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c971211e3abdfcc3903f189c130b9698') in 0.034032 seconds 
+  Import took 0.037639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051449 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Water alpha softrim.mat
+  artifactKey: Guid(52f08ea62f09ed546be1a6f4b97b294c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Water alpha softrim.mat using Guid(52f08ea62f09ed546be1a6f4b97b294c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aee535908b715cda1ba2caa73cc1c45') in 0.039466 seconds 
+  Import took 0.043675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001652 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders/legacy/DissolveSoft_Alpha_Unlit.shader
+  artifactKey: Guid(d26b87b379426d34ca3f142bab4f2bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders/legacy/DissolveSoft_Alpha_Unlit.shader using Guid(d26b87b379426d34ca3f142bab4f2bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d03219b83ebec39534cc31c66cee7f5') in 0.000845 seconds 
+  Import took 0.003271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051509 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Textures/glow.png
+  artifactKey: Guid(c0a8eaca583607549838af6fcfdc1c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Textures/glow.png using Guid(c0a8eaca583607549838af6fcfdc1c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89053b71ca380c318e1d57221a4ebc22') in 0.008216 seconds 
+  Import took 0.012332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.192770 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Textures/volumetric_cloud_sheet.psd
+  artifactKey: Guid(d551a3563e97f5d4daa5b998e838d935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Textures/volumetric_cloud_sheet.psd using Guid(d551a3563e97f5d4daa5b998e838d935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb2ab022543457265c6b37037332b5ad') in 0.013763 seconds 
+  Import took 0.017995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014418 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore
+  artifactKey: Guid(704c660e81e19436e982adf9e188c24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore using Guid(704c660e81e19436e982adf9e188c24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8b91e9dbc7ea5992255ea5e8c942e21') in 0.000644 seconds 
+  Import took 0.003552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.179157 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders/legacy/Dissolve_Alpha_Additive_Opacity.shader
+  artifactKey: Guid(4ff6881991348794b894faaf735fd483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders/legacy/Dissolve_Alpha_Additive_Opacity.shader using Guid(4ff6881991348794b894faaf735fd483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adb0de4fc2c795881a32e4df5ebc0eb3') in 0.002785 seconds 
+  Import took 0.010205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031138 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Textures/burn_ramp_gradient.png
+  artifactKey: Guid(f7d186cbd21bb124bb1b3d3eb8ae1cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Textures/burn_ramp_gradient.png using Guid(f7d186cbd21bb124bb1b3d3eb8ae1cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29ecdd073fa6cedef1b95680bd41e7f6') in 0.013390 seconds 
+  Import took 0.018383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.062571 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Soul Dissolve sharp add.mat
+  artifactKey: Guid(6e5c9f65f46af5648b8678d1acae1fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Soul Dissolve sharp add.mat using Guid(6e5c9f65f46af5648b8678d1acae1fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9935bc0bedde266ef172f10f6f72e281') in 0.010057 seconds 
+  Import took 0.013532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.155442 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Textures/cloud_shade.psd
+  artifactKey: Guid(abd9fb01aa361f044be7066b09c5596f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Textures/cloud_shade.psd using Guid(abd9fb01aa361f044be7066b09c5596f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b280f32fe5dde7f5a64f6e68d194d0ec') in 0.027301 seconds 
+  Import took 0.033059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044764 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Scenes
+  artifactKey: Guid(0a6046b362a68a649ad72145ec0ce00e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Scenes using Guid(0a6046b362a68a649ad72145ec0ce00e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4d4118304d3b687c49b2b23522d7a34') in 0.016579 seconds 
+  Import took 0.021307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001403 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/ReadMe.txt
+  artifactKey: Guid(6bc5fa3b42c2d1c4dbc0c30771538da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/ReadMe.txt using Guid(6bc5fa3b42c2d1c4dbc0c30771538da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e585449ed246159e3a60e6b8bce2d69') in 0.018412 seconds 
+  Import took 0.021619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027978 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Water Splash fallback.prefab
+  artifactKey: Guid(fe9372b5e90add447945755c45121163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Water Splash fallback.prefab using Guid(fe9372b5e90add447945755c45121163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae08e1f4946139c94fd98c1420a2a707') in 0.042847 seconds 
+  Import took 0.047461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.103340 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Textures/cloud_flame_loop.png
+  artifactKey: Guid(16ecde229fb6da24db97f7d12dfa4716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Textures/cloud_flame_loop.png using Guid(16ecde229fb6da24db97f7d12dfa4716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd833aaf1f7ae65b5234d2b2cb15d17ca') in 0.005843 seconds 
+  Import took 0.009297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.060979 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Textures/checker.bmp
+  artifactKey: Guid(4602f5e8f3eb16f4b92474190bd56922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Textures/checker.bmp using Guid(4602f5e8f3eb16f4b92474190bd56922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b8f3fc08bbf2523d56f19c56100227e') in 0.013282 seconds 
+  Import took 0.016597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051279 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Cloud dissolve sharp add.mat
+  artifactKey: Guid(0f3d583df86eba746b81e92ec42e3a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Cloud dissolve sharp add.mat using Guid(0f3d583df86eba746b81e92ec42e3a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91e27d6b651840fff43a3a1fadd5f7ef') in 0.011397 seconds 
+  Import took 0.015126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037592 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Fire basic mobile.prefab
+  artifactKey: Guid(1c6cf70a4666e5a40ba4bafbc8947b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Fire basic mobile.prefab using Guid(1c6cf70a4666e5a40ba4bafbc8947b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c586d8bba324f2dd04a4158609fd74b') in 0.022004 seconds 
+  Import took 0.026851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.071781 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Textures/water.psd
+  artifactKey: Guid(7a8db3d97ad1eed4db749251a5d85a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Textures/water.psd using Guid(7a8db3d97ad1eed4db749251a5d85a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39d803724afde4516aa1bfc783379d68') in 0.008150 seconds 
+  Import took 0.013180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045451 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders/legacy/DissolveSoft_Alpha_Unlit_Opacity.shader
+  artifactKey: Guid(096645ed41dc5414b8b6d26a3aa9a3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders/legacy/DissolveSoft_Alpha_Unlit_Opacity.shader using Guid(096645ed41dc5414b8b6d26a3aa9a3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09172178a04cd61b9eb2c673f80eae6e') in 0.000844 seconds 
+  Import took 0.003770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023347 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders/unity5/Editor/Shader_softrim_dissolve.cs
+  artifactKey: Guid(8c0d9f1d675747d4396596206a5a6630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders/unity5/Editor/Shader_softrim_dissolve.cs using Guid(8c0d9f1d675747d4396596206a5a6630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0be597f94f00ca5feb55044be6ea6e85') in 0.000632 seconds 
+  Import took 0.003725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.115273 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Lens Flares/Blue Glow.flare
+  artifactKey: Guid(fc05ea72b64827a448e37b0c9e2d9e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Lens Flares/Blue Glow.flare using Guid(fc05ea72b64827a448e37b0c9e2d9e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1936613496d6f759d14e712f37187f85') in 0.003655 seconds 
+  Import took 0.012119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029218 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Scenes/Demo_effects_most.unity
+  artifactKey: Guid(3af53b79e1018e240a26d87cb74406fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Scenes/Demo_effects_most.unity using Guid(3af53b79e1018e240a26d87cb74406fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2be9c80073b7fd2233fbd3761135df9') in 0.002479 seconds 
+  Import took 0.008599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029041 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Water dissolve sharp alpha softrim.mat
+  artifactKey: Guid(c776618fe829e8a4cb0c0b5ddfe8539d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Water dissolve sharp alpha softrim.mat using Guid(c776618fe829e8a4cb0c0b5ddfe8539d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e99cfd3d8124b6e88ce26e9dad74edaf') in 0.008348 seconds 
+  Import took 0.012800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.071347 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders/legacy/Dissolve_Alpha_Unlit_Opacity_softrim.shader
+  artifactKey: Guid(c5b8c97c9f442234f92950ca49c497e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders/legacy/Dissolve_Alpha_Unlit_Opacity_softrim.shader using Guid(c5b8c97c9f442234f92950ca49c497e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67d157ed873f2ec6c7057c9bf9d17968') in 0.000997 seconds 
+  Import took 0.004124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.401627 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Fire fuel mobile.prefab
+  artifactKey: Guid(f7358320598c4a3419cb533d8da4c32e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Fire fuel mobile.prefab using Guid(f7358320598c4a3419cb533d8da4c32e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fc0819d53c69e95d245a4da348f0120') in 0.022484 seconds 
+  Import took 0.027996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.172297 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Fire fuel sharp.prefab
+  artifactKey: Guid(96918d1d02a66fe4c8b8ec5bb89b04cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Fire fuel sharp.prefab using Guid(96918d1d02a66fe4c8b8ec5bb89b04cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8e75f1fa9257635dcdeebd3cbdb2bdd') in 0.026469 seconds 
+  Import took 0.030650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.065145 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Lens Flares/Basic Fire Glow.flare
+  artifactKey: Guid(97799acb0a5f29644875356634905ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Lens Flares/Basic Fire Glow.flare using Guid(97799acb0a5f29644875356634905ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8369d0a51fe6f5693569b5731a33e89') in 0.001989 seconds 
+  Import took 0.007588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002039 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders/legacy/DissolveSoft_Alpha_Additive.shader
+  artifactKey: Guid(37a5c745d4e48304d86c41f3189498a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders/legacy/DissolveSoft_Alpha_Additive.shader using Guid(37a5c745d4e48304d86c41f3189498a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8464984feca6fdb8da80cdd99c621a4f') in 0.001270 seconds 
+  Import took 0.005017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.087923 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Explosion single mobile.prefab
+  artifactKey: Guid(f66e014454bdeb942944471c5e19da6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Explosion single mobile.prefab using Guid(f66e014454bdeb942944471c5e19da6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ec0497ed33284f7dcaa5b861f023211') in 0.023989 seconds 
+  Import took 0.028999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.066812 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Flame alpha.mat
+  artifactKey: Guid(e79fa5fb24df1374a9e7e8304e9b8976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Flame alpha.mat using Guid(e79fa5fb24df1374a9e7e8304e9b8976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9064df13a344911c71fd3fd6215bf8fa') in 0.007542 seconds 
+  Import took 0.010893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.133267 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Cloud dissolve soft add.mat
+  artifactKey: Guid(9fb3e62b3ef1c18488b4e7fad598e15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Cloud dissolve soft add.mat using Guid(9fb3e62b3ef1c18488b4e7fad598e15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92f181159016b48b67fde3da530cc61f') in 0.007310 seconds 
+  Import took 0.010761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.076906 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/fire loop alpha.mat
+  artifactKey: Guid(5aa2b57dbae0b6d4697812e749e704a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/fire loop alpha.mat using Guid(5aa2b57dbae0b6d4697812e749e704a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cdce9f9f381446c983622cb238ec9c5') in 0.017661 seconds 
+  Import took 0.021007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025713 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Sphere fire move.prefab
+  artifactKey: Guid(cb7bbf4269d890d44992b6944a0664a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Sphere fire move.prefab using Guid(cb7bbf4269d890d44992b6944a0664a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4438e3e2f8751d94c3e458551dfe4347') in 0.043322 seconds 
+  Import took 0.046826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029215 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Smoke basic sharp.prefab
+  artifactKey: Guid(44441c13dee4ad04d9a68987918b669c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Smoke basic sharp.prefab using Guid(44441c13dee4ad04d9a68987918b669c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73cf69dc82291c73fd5fb1ec297d6c13') in 0.020083 seconds 
+  Import took 0.023697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.069664 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Scripts/ScrollingUVs_PDS.cs
+  artifactKey: Guid(fb70e113edfba6b43a97a49fd912b70b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Scripts/ScrollingUVs_PDS.cs using Guid(fb70e113edfba6b43a97a49fd912b70b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6cfe796a5269322e928c5a0f3199ddf') in 0.001753 seconds 
+  Import took 0.006957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037130 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Scenes/Demo_cloth_fire.unity
+  artifactKey: Guid(0808f8cbea73af246850123e4814c280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Scenes/Demo_cloth_fire.unity using Guid(0808f8cbea73af246850123e4814c280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8c2538b43133dc3258149ef33aad242') in 0.002457 seconds 
+  Import took 0.009881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.109922 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Water Splash mobile.prefab
+  artifactKey: Guid(2f817e74459d5b04b9f24db44d7db328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Water Splash mobile.prefab using Guid(2f817e74459d5b04b9f24db44d7db328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1af29f4528ed6abb1eda4cb9021a25b') in 0.028464 seconds 
+  Import took 0.034204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002874 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials
+  artifactKey: Guid(84efad2b37936734586e4d6de00d64a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials using Guid(84efad2b37936734586e4d6de00d64a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a414a46f63f6b5d2500aadc05224694') in 0.000625 seconds 
+  Import took 0.003269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015967 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders/unity5
+  artifactKey: Guid(7b05fdc9387ae194a9b3b4a186262ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders/unity5 using Guid(7b05fdc9387ae194a9b3b4a186262ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e04abfc1cfbe2660eaacc614b221870') in 0.000989 seconds 
+  Import took 0.004856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.197841 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs
+  artifactKey: Guid(ee8a3864405de3845b3ce74e8e691763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs using Guid(ee8a3864405de3845b3ce74e8e691763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc059247335fff8291279b790cf77c0a') in 0.001834 seconds 
+  Import took 0.007702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048962 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Explosion loop mobile.prefab
+  artifactKey: Guid(578c7b5ceacee2f4ca4c7b9c1ec31b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Explosion loop mobile.prefab using Guid(578c7b5ceacee2f4ca4c7b9c1ec31b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68d935816a08fd6b6db210eb507261e8') in 0.029853 seconds 
+  Import took 0.035250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.089274 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Particle sheet add.mat
+  artifactKey: Guid(41a4ddea1f1bafa498c998e2c62fd528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Particle sheet add.mat using Guid(41a4ddea1f1bafa498c998e2c62fd528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c50d25533cc93fb2f7f1e2d6949d2c1a') in 0.010902 seconds 
+  Import took 0.015262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046433 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Cloud Flame alpha.mat
+  artifactKey: Guid(4f80ece397dd4884a97a40e6d98d9ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Cloud Flame alpha.mat using Guid(4f80ece397dd4884a97a40e6d98d9ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b005ed09f21b0b175ab2daff61d29b4') in 0.011394 seconds 
+  Import took 0.016445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023948 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Sphere fire.prefab
+  artifactKey: Guid(08b418f17d6f2d54b8ba5ef72a1e3b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Sphere fire.prefab using Guid(08b418f17d6f2d54b8ba5ef72a1e3b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ddcf4ec2a92f9729aebf94f4d9392cb') in 0.023737 seconds 
+  Import took 0.028148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040983 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Water Splash soft.prefab
+  artifactKey: Guid(051cf3b94d281a5478a0d3f739bea9bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Water Splash soft.prefab using Guid(051cf3b94d281a5478a0d3f739bea9bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '517478aab41d9af7bca9189a2360effe') in 0.035189 seconds 
+  Import took 0.040692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032779 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Flame add.mat
+  artifactKey: Guid(82c6732395bc60c468708d359b717665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Flame add.mat using Guid(82c6732395bc60c468708d359b717665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dffd4f6ae3ba7ce0737ade61abfc87d') in 0.010892 seconds 
+  Import took 0.033153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020115 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Flame dissolve soft alpha softrim stretch.mat
+  artifactKey: Guid(95c6392bf9aedc2459eb8e280ed92f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Flame dissolve soft alpha softrim stretch.mat using Guid(95c6392bf9aedc2459eb8e280ed92f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3a48e692b05b9c3d20c98f69a4b11fc') in 0.050554 seconds 
+  Import took 0.054363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.182588 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Textures/soul.psd
+  artifactKey: Guid(6693a5a882abf4147afd9a46e5131b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Textures/soul.psd using Guid(6693a5a882abf4147afd9a46e5131b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1961455705e869b7492ccdaa81084113') in 0.005838 seconds 
+  Import took 0.009130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011661 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Soul Dissolve soft add.mat
+  artifactKey: Guid(352ec17fad692564988a47c4fd81df18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Soul Dissolve soft add.mat using Guid(352ec17fad692564988a47c4fd81df18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1c9ebe140d57dd4eb14b8f0bbd36c4b') in 0.007229 seconds 
+  Import took 0.010436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.059284 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Flamethrower soft.prefab
+  artifactKey: Guid(26c199649156d61419a9d5f072f1a024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Flamethrower soft.prefab using Guid(26c199649156d61419a9d5f072f1a024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36f0046f250877e3284155c2dc074d24') in 0.037009 seconds 
+  Import took 0.040505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033760 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Textures/flame_single.psd
+  artifactKey: Guid(bb713d404effa7c41a77db71e8bb46e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Textures/flame_single.psd using Guid(bb713d404effa7c41a77db71e8bb46e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aac0639421d76241c8357f86a495d2a') in 0.016843 seconds 
+  Import took 0.019893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045448 seconds.
+  path: Assets/SimpleNaturePack/SimpleNaturePack_URP_2019.3.unitypackage
+  artifactKey: Guid(d504c149f8ea1714d83d6d405de4e157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleNaturePack/SimpleNaturePack_URP_2019.3.unitypackage using Guid(d504c149f8ea1714d83d6d405de4e157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d46be2f7c2c90e4b109cae17a90fbd9') in 0.002272 seconds 
+  Import took 0.005378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051457 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Flamethrower sharp.prefab
+  artifactKey: Guid(4f8a3a0b449257842b03d9918aefd150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Flamethrower sharp.prefab using Guid(4f8a3a0b449257842b03d9918aefd150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19ce097eba764c5b4529cc9dfc7bb0e8') in 0.030846 seconds 
+  Import took 0.034561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030384 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Flame dissolve sharp alpha softrim stretch.mat
+  artifactKey: Guid(232839310cdf8e848b4e6e44c2a13679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Flame dissolve sharp alpha softrim stretch.mat using Guid(232839310cdf8e848b4e6e44c2a13679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '530ca42ea4c616a1765ffddf99c2ca29') in 0.068946 seconds 
+  Import took 0.072321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034754 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Explosion dissolve soft alpha.mat
+  artifactKey: Guid(edb7ceffee7afac489bdf1ef0fd8f17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Explosion dissolve soft alpha.mat using Guid(edb7ceffee7afac489bdf1ef0fd8f17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e02bd3bfe7735c3b714270fd4b41d125') in 0.007964 seconds 
+  Import took 0.011440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043925 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Textures/cloud_loop.bmp
+  artifactKey: Guid(808d653919d8945409870a824173d8db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Textures/cloud_loop.bmp using Guid(808d653919d8945409870a824173d8db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a2ea619243c3ce9f5eaa9e3c2b7b6c9') in 0.017774 seconds 
+  Import took 0.021849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.066138 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Water dissolve soft alpha.mat
+  artifactKey: Guid(cd6a4cfc305a3814d9b52bcaf41a4091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Water dissolve soft alpha.mat using Guid(cd6a4cfc305a3814d9b52bcaf41a4091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c18f39fd9c0ca2410455cee3495a2d7d') in 0.009562 seconds 
+  Import took 0.014096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.093732 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Fire basic soft.prefab
+  artifactKey: Guid(5254f1d4706b70a43a126292a062a4cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Fire basic soft.prefab using Guid(5254f1d4706b70a43a126292a062a4cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2bcac8d522532093d8310c0d741ffd6') in 0.028749 seconds 
+  Import took 0.034376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.072327 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Explosion single_2 fallback.prefab
+  artifactKey: Guid(7070fbe5d358dfd45b3de7d9fddfd386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Explosion single_2 fallback.prefab using Guid(7070fbe5d358dfd45b3de7d9fddfd386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe20e4768109014f324dcfaa0ded6caf') in 0.029067 seconds 
+  Import took 0.033762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036551 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Water dissolve sharp alpha.mat
+  artifactKey: Guid(345bf329ef604884b8d534453999ec96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Water dissolve sharp alpha.mat using Guid(345bf329ef604884b8d534453999ec96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfd5971954c317c4bf395c69b23c0bcc') in 0.007105 seconds 
+  Import took 0.010433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013561 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders/softrim/Particle_softrim_add_stretch.shader
+  artifactKey: Guid(d65195766ebf62f49821c9c5452fbe39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders/softrim/Particle_softrim_add_stretch.shader using Guid(d65195766ebf62f49821c9c5452fbe39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4649c8b755b6f0be9daf86e06397963d') in 0.000877 seconds 
+  Import took 0.003925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.132137 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Explosion single_2 soft.prefab
+  artifactKey: Guid(08af55dd04af6094389b71d80b600049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Explosion single_2 soft.prefab using Guid(08af55dd04af6094389b71d80b600049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f1df98d17da77d964fc3e14d14eebfb') in 0.048956 seconds 
+  Import took 0.054298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.171018 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders/legacy/DissolveSoft_Alpha_Additive_Opacity_softrim.shader
+  artifactKey: Guid(c6e028904bb4c2a438a72aeb6e255b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders/legacy/DissolveSoft_Alpha_Additive_Opacity_softrim.shader using Guid(c6e028904bb4c2a438a72aeb6e255b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d4dec79eeacf3f66951249335178772') in 0.001604 seconds 
+  Import took 0.007133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003970 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders/softrim/Particle_softrim_add.shader
+  artifactKey: Guid(46ffdb0e4f680fa43ac8145aca7dc14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders/softrim/Particle_softrim_add.shader using Guid(46ffdb0e4f680fa43ac8145aca7dc14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '536e50a91cb72020c88d08a3b9742b89') in 0.001309 seconds 
+  Import took 0.005193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.115286 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders/legacy/DissolveSoft_Alpha_Additive_softrim.shader
+  artifactKey: Guid(80ec40216f9f88c4db55c5cb9bace3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders/legacy/DissolveSoft_Alpha_Additive_softrim.shader using Guid(80ec40216f9f88c4db55c5cb9bace3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '629f8b83cc9924c041e9abd041618154') in 0.001747 seconds 
+  Import took 0.008618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.170276 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Flame dissolve sharp add.mat
+  artifactKey: Guid(04dc1f70ca921b24cbd827ae2cd291d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Flame dissolve sharp add.mat using Guid(04dc1f70ca921b24cbd827ae2cd291d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91fd3456538799fdf55fcd69a0e3d405') in 0.013541 seconds 
+  Import took 0.019282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.119533 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders/unity5/Particle_Softrim_Dissolve_additive.shader
+  artifactKey: Guid(7e95dee84673b95468ed1b780045a1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders/unity5/Particle_Softrim_Dissolve_additive.shader using Guid(7e95dee84673b95468ed1b780045a1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27af7663564652fdcdaf1d2abd40ff73') in 0.002814 seconds 
+  Import took 0.011018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016285 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Cloud dissolve soft alpha opacity.mat
+  artifactKey: Guid(d5bff1c9ae7eb5f4792702a41b6fb1a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Cloud dissolve soft alpha opacity.mat using Guid(d5bff1c9ae7eb5f4792702a41b6fb1a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89336c4b1abcc8da35d383fe56b9c596') in 0.046581 seconds 
+  Import took 0.050766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026868 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Flame dissolve soft add.mat
+  artifactKey: Guid(215b10ae0cbe8a842ab317cf9c520fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Flame dissolve soft add.mat using Guid(215b10ae0cbe8a842ab317cf9c520fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbbcfcc520f42de16d3d8b9e2a61e305') in 0.008303 seconds 
+  Import took 0.027293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025125 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Flame dissolve soft alpha.mat
+  artifactKey: Guid(63fec24031294324d9222c9df2100cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Flame dissolve soft alpha.mat using Guid(63fec24031294324d9222c9df2100cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e870ecbf767823e4b5c7e31b645b029c') in 0.009372 seconds 
+  Import took 0.013242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013843 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders/legacy/Dissolve_Alpha_Additive_softrim.shader
+  artifactKey: Guid(21e71ef5d6df5054a9447e6b23e6d37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders/legacy/Dissolve_Alpha_Additive_softrim.shader using Guid(21e71ef5d6df5054a9447e6b23e6d37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e27e78a32bf145cc76ae0b579d58481') in 0.001002 seconds 
+  Import took 0.004266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044562 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders/legacy/Dissolve_Alpha_Additive.shader
+  artifactKey: Guid(1930426e165c78b41a72a0d6dc2d4b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders/legacy/Dissolve_Alpha_Additive.shader using Guid(1930426e165c78b41a72a0d6dc2d4b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '477d4717f8296c68face63b9ab0d8427') in 0.001929 seconds 
+  Import took 0.007674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.086294 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Soul fallback.prefab
+  artifactKey: Guid(7ae0f082131b65b4db997d70d822add3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Soul fallback.prefab using Guid(7ae0f082131b65b4db997d70d822add3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb188ef64b92a24e96b394af34800c3f') in 0.046176 seconds 
+  Import took 0.052005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021750 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Smoke basic mobile alpha.prefab
+  artifactKey: Guid(bdba85e81a39dc848a061fa31bdbeeb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Smoke basic mobile alpha.prefab using Guid(bdba85e81a39dc848a061fa31bdbeeb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '132215c7bc1dd4038026bb25551c2204') in 0.023484 seconds 
+  Import took 0.027617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001470 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Soul add.mat
+  artifactKey: Guid(d3130546985844f4aad65817b89cf7c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Soul add.mat using Guid(d3130546985844f4aad65817b89cf7c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3abd9ad6a75944020f5a0476d210c797') in 0.006885 seconds 
+  Import took 0.009672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.065357 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders/legacy
+  artifactKey: Guid(d38bb5f38358de449b53c87a282ea353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders/legacy using Guid(d38bb5f38358de449b53c87a282ea353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d3ce7ec9f0808d2900dba392593d366') in 0.001783 seconds 
+  Import took 0.008456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040995 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Textures/cloud_flame_single.psd
+  artifactKey: Guid(5ff2384436281dd42a438ba7d6ae71f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Textures/cloud_flame_single.psd using Guid(5ff2384436281dd42a438ba7d6ae71f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc89806683f464c8d47c87df8bc4830a') in 0.018826 seconds 
+  Import took 0.022060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053439 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Fire fuel soft.prefab
+  artifactKey: Guid(7a6f5d14b8901a34ab435748f593748e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Fire fuel soft.prefab using Guid(7a6f5d14b8901a34ab435748f593748e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa05a472fd25a32231e7f859875fe05d') in 0.026215 seconds 
+  Import took 0.029721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053034 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Scenes/Demo_effects_mobile.unity
+  artifactKey: Guid(459261ca4f6ec52469633c294db336fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Scenes/Demo_effects_mobile.unity using Guid(459261ca4f6ec52469633c294db336fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '497602290718ca1c2df5ac5259bba8d6') in 0.002004 seconds 
+  Import took 0.007361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.128384 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Scenes/Demo_effects_mostSettings.lighting
+  artifactKey: Guid(5a886fd6644a21fe580eff6c3c06ab82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Scenes/Demo_effects_mostSettings.lighting using Guid(5a886fd6644a21fe580eff6c3c06ab82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '15767d309c237765631c868062a6014f') in 0.003221 seconds 
+  Import took 0.009670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039101 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders/softrim/Particle_softrim_alpha_stretch.shader
+  artifactKey: Guid(fe53fc2d868abc240a9839422f3dd3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders/softrim/Particle_softrim_alpha_stretch.shader using Guid(fe53fc2d868abc240a9839422f3dd3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '301383c6ebdbece4bf10c4ab0bc9d351') in 0.002288 seconds 
+  Import took 0.008334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.098182 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Soul sharp.prefab
+  artifactKey: Guid(7558471b1bf298d4286b9c9d4fa2142e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Soul sharp.prefab using Guid(7558471b1bf298d4286b9c9d4fa2142e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3a0bdc167570124b612226659733262') in 0.036701 seconds 
+  Import took 0.040942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.373627 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Checker.mat
+  artifactKey: Guid(66eb83927781d3641bed489779c6f414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Checker.mat using Guid(66eb83927781d3641bed489779c6f414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3b60ad0257e57c61b71101624290233') in 0.155563 seconds 
+  Import took 0.160439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.102036 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Soul soft.prefab
+  artifactKey: Guid(d7706cfdb18270946b264f7e7a0fb4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Soul soft.prefab using Guid(d7706cfdb18270946b264f7e7a0fb4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82f1850576eaa411eee234595b29a19f') in 0.030320 seconds 
+  Import took 0.035966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019646 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Cloud dissolve sharp alpha.mat
+  artifactKey: Guid(eab7bccc5afc9ea449dbe4aa45e1bc0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Cloud dissolve sharp alpha.mat using Guid(eab7bccc5afc9ea449dbe4aa45e1bc0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f6e72602b7b09db492aa221bb2f687c') in 0.009879 seconds 
+  Import took 0.013932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047653 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Fire basic fallback.prefab
+  artifactKey: Guid(7432ce044a5b60a4ca79c52e6f7aabc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Fire basic fallback.prefab using Guid(7432ce044a5b60a4ca79c52e6f7aabc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1a13ae9bb64be234aa0426d740be274') in 0.066578 seconds 
+  Import took 0.071055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037847 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Textures/cloud_flame_loop2.psd
+  artifactKey: Guid(9e195cc98c8f76f449b85cebf877ab67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Textures/cloud_flame_loop2.psd using Guid(9e195cc98c8f76f449b85cebf877ab67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25b3675c2bc327e3cdd203933f68bb20') in 0.009074 seconds 
+  Import took 0.014655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.132824 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Glow add.mat
+  artifactKey: Guid(6574435646581f34f9f80e0c7cafdde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Glow add.mat using Guid(6574435646581f34f9f80e0c7cafdde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcb69b66c1f24ee9b22afab0a64abee6') in 0.011363 seconds 
+  Import took 0.016589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008570 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Volumetric Cloud alpha.mat
+  artifactKey: Guid(c5bf04be7ec50bd4998d6335bbdd4bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Volumetric Cloud alpha.mat using Guid(c5bf04be7ec50bd4998d6335bbdd4bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aecaec70a8cdf1979086d179c0b99f23') in 0.057562 seconds 
+  Import took 0.060880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.065143 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Cloud Flame loop alpha.mat
+  artifactKey: Guid(e2e48b100e34807469ef8c1cf94235a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Cloud Flame loop alpha.mat using Guid(e2e48b100e34807469ef8c1cf94235a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c91145ddf39715009c26464e913f716') in 0.019334 seconds 
+  Import took 0.024453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039138 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Fire fuel fallback.prefab
+  artifactKey: Guid(245191202050321409424466409a4448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Fire fuel fallback.prefab using Guid(245191202050321409424466409a4448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f95852d41615a8bf49581d38e9d325dc') in 0.020824 seconds 
+  Import took 0.024842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.093382 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Explosion single fallback.prefab
+  artifactKey: Guid(54b661f759164cb4cb9424de6a512cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Explosion single fallback.prefab using Guid(54b661f759164cb4cb9424de6a512cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5440109b5d6d5e5d60b926914ad5160a') in 0.033306 seconds 
+  Import took 0.039785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.092760 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Scripts
+  artifactKey: Guid(d5a8ab9e911e47d46af0358556087bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Scripts using Guid(d5a8ab9e911e47d46af0358556087bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee6890ce3843d41d69631579ab818e1d') in 0.001212 seconds 
+  Import took 0.006070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.229584 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Cameras
+  artifactKey: Guid(c4fa45d32517714468f5a94ca772c20d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Cameras using Guid(c4fa45d32517714468f5a94ca772c20d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4826e6c2c7bc2734c5ef90d2b521bd01') in 0.001265 seconds 
+  Import took 0.005874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047284 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Cloud dissolve soft alpha.mat
+  artifactKey: Guid(afc6818c257640649a5e757e73f512b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Cloud dissolve soft alpha.mat using Guid(afc6818c257640649a5e757e73f512b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1daed7f23b85611d816dda5001d32cc4') in 0.006974 seconds 
+  Import took 0.010227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.245932 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Textures/cloud_4_variants.psd
+  artifactKey: Guid(c4b63316c1599924298ae931e54a3dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Textures/cloud_4_variants.psd using Guid(c4b63316c1599924298ae931e54a3dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb7f2d0f9c243e22a4e618937c5b694c') in 0.005555 seconds 
+  Import took 0.008929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036800 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Soul Dissolve sharp alpha.mat
+  artifactKey: Guid(959fdeca6f488974b9ea91a332485804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Soul Dissolve sharp alpha.mat using Guid(959fdeca6f488974b9ea91a332485804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8af87634602cc162181294b21c0f6845') in 0.009989 seconds 
+  Import took 0.013515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012505 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Animations/spin.anim
+  artifactKey: Guid(0ac62aef9585e994e94ce8afff71536a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Animations/spin.anim using Guid(0ac62aef9585e994e94ce8afff71536a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43cf8bfbf20495319d8f2d1cc996a0d9') in 0.004221 seconds 
+  Import took 0.022509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045385 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Explosion loop_2 sharp.prefab
+  artifactKey: Guid(49265d0ec016fc946a15107b9a82b5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Explosion loop_2 sharp.prefab using Guid(49265d0ec016fc946a15107b9a82b5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1c2a334bd29fa6f18709fe0c6e6dfc3') in 0.031018 seconds 
+  Import took 0.036890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024145 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Flame alpha softrim stretch.mat
+  artifactKey: Guid(686c6926e5ca779418fef75409735697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Flame alpha softrim stretch.mat using Guid(686c6926e5ca779418fef75409735697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2c17c0d97fe1271c67a6acae2c248bb') in 0.009190 seconds 
+  Import took 0.013344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.064857 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders/legacy/Dissolve_Alpha_Additive_Opacity_softrim.shader
+  artifactKey: Guid(fd331a00ce4890c4581e8813dba31c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders/legacy/Dissolve_Alpha_Additive_Opacity_softrim.shader using Guid(fd331a00ce4890c4581e8813dba31c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8179c8a5b05273d2eed5fde6e452a312') in 0.002286 seconds 
+  Import took 0.008470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.091750 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Explosion single_2 sharp.prefab
+  artifactKey: Guid(866a4ac022f2a8e46b9f482d65401a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Explosion single_2 sharp.prefab using Guid(866a4ac022f2a8e46b9f482d65401a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8acca5de23f855863633f7d592c9778d') in 0.024855 seconds 
+  Import took 0.028909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002372 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Scenes/Demo_effects_mobileSettings.lighting
+  artifactKey: Guid(bccbe3e22a4412e8c91face2fb3c6093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Scenes/Demo_effects_mobileSettings.lighting using Guid(bccbe3e22a4412e8c91face2fb3c6093) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'e67c16efc8c123b6b595896c24169d16') in 0.001179 seconds 
+  Import took 0.004341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.173050 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders
+  artifactKey: Guid(6cd8c2179fb8ed140b8265bec5aa613b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders using Guid(6cd8c2179fb8ed140b8265bec5aa613b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd82a94e3cc9a0998c74485a4828f9c2') in 0.001141 seconds 
+  Import took 0.005455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.124587 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Fire basic sharp.prefab
+  artifactKey: Guid(96f9b5b1886f6c9428f333ee2ce06025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Fire basic sharp.prefab using Guid(96f9b5b1886f6c9428f333ee2ce06025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b380cf2b7cee177f1f3a452472c69b7') in 0.021125 seconds 
+  Import took 0.025747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.097964 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Explosion single soft.prefab
+  artifactKey: Guid(4be461bdf6702f64298fb518ce64cc1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Prefabs/Explosion single soft.prefab using Guid(4be461bdf6702f64298fb518ce64cc1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'defe76079c78c260aaf59a4f44c88365') in 0.025847 seconds 
+  Import took 0.031355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.075807 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Water dissolve soft alpha softrim.mat
+  artifactKey: Guid(4f138bf45427d9245ba034bd6415c13a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Materials/Water dissolve soft alpha softrim.mat using Guid(4f138bf45427d9245ba034bd6415c13a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ad4911cfc81288523711e77c273f717') in 0.010617 seconds 
+  Import took 0.015135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015156 seconds.
+  path: Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders/unity5/Editor
+  artifactKey: Guid(a95e387e8817cb34da078d320c58a17d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Dissolve Shader by Moonflower Carnivore/Shaders/unity5/Editor using Guid(a95e387e8817cb34da078d320c58a17d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '087a65b4ff528dabeb86bc4c244077ef') in 0.000637 seconds 
+  Import took 0.003760 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
