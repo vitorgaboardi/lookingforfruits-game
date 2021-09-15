@@ -5,6 +5,18 @@ using TMPro;
 
 public class Messages : MonoBehaviour
 {
+
+	#region Singleton
+
+	public static Messages instance;
+
+	void Awake ()
+	{
+		instance = this;
+	}
+
+	#endregion
+
     public TextMeshProUGUI texto;
 
     IEnumerator Start()
@@ -15,6 +27,7 @@ public class Messages : MonoBehaviour
             yield return StartCoroutine(this.ShowMessage("Welcome to the Looking for Fruits Game!",3));
             yield return StartCoroutine(this.ShowMessage("You must find all the fruits within the map",3));
             yield return StartCoroutine(this.ShowMessage("When you find a fruit, use left click to get it",3));
+            yield return StartCoroutine(this.ShowMessage("Besides, you can eat a fruit and receive a power!",3));
         }
         else if (GlobalVariables.phase == 2)
         {

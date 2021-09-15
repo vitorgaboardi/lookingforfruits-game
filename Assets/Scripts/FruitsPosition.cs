@@ -41,6 +41,7 @@ public class FruitsPosition : MonoBehaviour
         {
             if(obj.name != "banana")
             {
+                obj.SetActive(true);
                 index = Random.Range(0,points.Count);
                 obj.transform.position = points[index];
                 points.RemoveAt(index);

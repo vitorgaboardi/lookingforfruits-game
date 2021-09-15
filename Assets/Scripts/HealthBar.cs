@@ -5,6 +5,17 @@ using UnityEngine.UI;
 
 public class HealthBar : MonoBehaviour
 {
+	#region Singleton
+
+	public static HealthBar instance;
+
+	void Awake ()
+	{
+		instance = this;
+	}
+
+	#endregion
+
     public Slider slider;
     public Gradient gradient;
     public Image fill;

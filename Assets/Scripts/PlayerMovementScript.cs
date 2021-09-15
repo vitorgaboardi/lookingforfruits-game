@@ -13,11 +13,24 @@ public static class GlobalVariables{
 
 public class PlayerMovementScript : MonoBehaviour
 {
-    
+
+	#region Singleton
+
+	public static PlayerMovementScript instance;
+
+	void Awake ()
+	{
+		instance = this;
+	}
+
+	#endregion
+
     public CharacterController controller;
     public float speed = 12f;
     public float gravity = -9.81f;
     public float jumpHeight = 5f;
+    public int damageCannon = 50;
+    public int damageFire = 6;
 
     public float groundDistance = 0.4f;
     public LayerMask groundMask;
@@ -70,16 +83,21 @@ public class PlayerMovementScript : MonoBehaviour
         velocity.y += gravity * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);
 
+        //Debug.Log(fruitsEaten + " - " +checkFruitExistence()+ " - " +GlobalVariables.phase);
+
         // Check if player is nearby a fruit
         fruitNearby();
-        if(checkFruitExistence() == false)
+        if(checkFruitExistence() == false )
         {
-            StartCoroutine(texto.ShowMessage("Nice! You just finished level " + GlobalVariables.phase + "!", 2));
-            StartCoroutine(NextLevel());
+            GlobalVariables.phase+=1;
+            SceneManager.LoadScene("Fase1",LoadSceneMode.Single);    // Always Load everything related to Config Scene
+            SceneManager.LoadScene("Config", LoadSceneMode.Additive);
+            StartCoroutine(texto.ShowMessage("Nice! You just finished level " + (GlobalVariables.phase-1) + "!", 2));
         }
 
+
         // Checking if player still alive
-        if(GlobalVariables.currentHp <= 0)
+        if(GlobalVariables.currentHp <= 0 || transform.position.y < -10f)
         {
             StartCoroutine(texto.ShowMessage("Game Over.", 3));
             StartCoroutine(ResetGame());
@@ -92,17 +110,9 @@ public class PlayerMovementScript : MonoBehaviour
         GlobalVariables.currentHp = 100;
         GlobalVariables.phase = 1;
         GlobalVariables.point = 0;
-        SceneManager.LoadScene("Config",LoadSceneMode.Single);    // Always Load everything related to Config Scene
-        SceneManager.LoadScene("Fase1", LoadSceneMode.Additive);
-    }
-
-    IEnumerator NextLevel()
-    {
-        yield return new WaitForSeconds(2);
-
-        GlobalVariables.phase+=1;
-        SceneManager.LoadScene("Config",LoadSceneMode.Single);    // Always Load everything related to Config Scene
-        SceneManager.LoadScene("Fase1", LoadSceneMode.Additive);
+        SceneManager.LoadScene("Fase1", LoadSceneMode.Single);
+        SceneManager.LoadScene("Config",LoadSceneMode.Additive);    
+        
     }
 
     void fruitNearby()
@@ -126,6 +136,9 @@ public class PlayerMovementScript : MonoBehaviour
             // Display message!
             StartCoroutine(texto.ShowMessage("Nice! You just got the " + fruit.name, 3));
             fruitsEaten+=1;
+            Debug.Log("Fruits: " + fruitsEaten);
+            Inventory.instance.Add(fruit.GetComponent<ItemInfo>().item);
+
             if(fruit.name != "banana")
             {
                 GlobalVariables.point+=100*GlobalVariables.phase;
@@ -134,7 +147,8 @@ public class PlayerMovementScript : MonoBehaviour
             {
                 GlobalVariables.point+=800;
             }
-            Destroy(fruit);
+            fruit.SetActive(false);
+            isFruitNearby = false;
         }
     }
 
@@ -173,7 +187,7 @@ public class PlayerMovementScript : MonoBehaviour
         timeColliding = 0f;
         if(collision.gameObject.tag == "BolaCanhao")
         {
-            GlobalVariables.currentHp-=25;
+            GlobalVariables.currentHp-=damageCannon;
             healthBar.SetHealth(GlobalVariables.currentHp);
         }
     }
@@ -185,7 +199,7 @@ public class PlayerMovementScript : MonoBehaviour
             if (timeColliding < timeThreshold) {
                  timeColliding += Time.deltaTime;
              } else {
-                 GlobalVariables.currentHp-=3;
+                 GlobalVariables.currentHp-=damageFire;
                  timeColliding = 0f;
                  healthBar.SetHealth(GlobalVariables.currentHp);
              }
